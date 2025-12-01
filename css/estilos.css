@@ -1,0 +1,190 @@
+body {
+    background-color: #fcf6ed;
+    padding: 2rem;
+}
+.card {
+    margin-bottom: 1rem;
+}
+.card-img-top {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+    border-bottom: 1px solid #ddd;
+}
+.alert-success {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 2000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.productos-col {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.btn-agregar {
+  background-color: #4190bc;
+  border-color: #4190bc;
+  color: white;
+}
+
+.btn-agregar:hover {
+  background-color: #35739d;
+  border-color: #35739d;
+}
+
+.btn-editar {
+  background-color: #f4ab22;
+  border-color: #f4ab22;
+  color: white;
+}
+
+.btn-editar:hover {
+  background-color: #d9941c;
+  border-color: #d9941c;
+}
+
+.btn-eliminar {
+  background-color: #f25477;
+  border-color: #f25477;
+  color: white;
+}
+
+.btn-eliminar:hover {
+  background-color: #d13e60;
+  border-color: #d13e60;
+}
+.navbar-header {
+  background-color: #fcf6ed; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.titulo-header {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.btn-agregar {
+  background-color: #4190bc;
+  color: white;
+  border: none;
+}
+
+.btn-agregar:hover {
+  background-color: #3170a1;
+  color: white;
+}
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.titulo-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.imagen-actual img {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto 15px;
+    border-radius: 5px;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.btn-guardar {
+    background-color: #4190bc; 
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-guardar:hover {
+    background-color: #3171a2;
+    color: white;
+}
+
+.btn-cancelar {
+    background-color: #f25477; 
+    color: white;
+}
+
+.btn-cancelar:hover {
+    background-color: #d03c65;
+    color: white;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+.container-historial {
+    background-color: #fcf6ed; 
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.container-historial .card {
+    background-color: #ffffffcc; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.container-historial .card-header {
+    background-color: #4190bc;
+    color: white;
+    font-weight: bold;
+}
+
+.container-historial .table {
+    margin-bottom: 0;
+}
+
+.container-historial .table th {
+    background-color: #f9f9f9;
+}
+
+.container-historial .table td {
+    vertical-align: middle;
+}
+
+.container-historial .no-ventas {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
